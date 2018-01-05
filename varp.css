@@ -54,13 +54,13 @@ div {
   width: 90%;
 }
 
-@media only screen and (min-width: 993px) {}
+@media only screen and (min-width: 993px) {
   .vcontainer {
       width: 85%;
   }
 }
 
-@media only screen and (min-width: 601px) {}
+@media only screen and (min-width: 601px) {
   .vcontainer {
       width: 85%;
   }
@@ -69,6 +69,46 @@ div {
 .vrow {
   margin: 10px 0 10px 0;
 }
+
+@media only screen and (min-width: 1280px) {
+  .vrow .vcol.xl1 {
+    width: 8.33333333333%;
+  }
+  .vrow .vcol.xl2 {
+    width: 16.6666666667%;
+  }
+  .vrow .vcol.xl3 {
+    width: 25%;
+  }
+  .vrow .vcol.xl4 {
+    width: 33.33333333333%;
+  }
+  .vrow .vcol.xl5 {
+    width: 41.6666666667%;
+  }
+  .vrow .vcol.xl6 {
+    width: 50%;
+  }
+  .vrow .vcol.xl7 {
+    width: 41.6666666667%;
+  }
+  .vrow .vcol.xl8 {
+    width: 66.6666666667%;
+  }
+  .vrow .vcol.xl9 {
+    width: 75%;
+  }
+  .vrow .vcol.xl10 {
+    width: 83.3333333333%;
+  }
+  .vrow .vcol.xl11 {
+    width: 91.6666666667%;
+  }
+  .vrow .vcol.xl12 {
+    width: 100%
+  }
+}
+
 
 @media only screen and (min-width: 993px) {
   .vrow .vcol.l1 {
@@ -228,136 +268,136 @@ div {
 .margin50 {
   margin: 50px;
 }
-.marginT0 {
+.margin.t0 {
   margin-top: 0;
 }
-.marginT5 {
+.margin.t5 {
   margin-top: 5px;
 }
-.marginT10 {
+.margin.t10 {
   margin-top: 10px;
 }
-.marginT15 {
+.margin.t15 {
   margin-top: 15px;
 }
-.marginT20 {
+.margin.t20 {
   margin-top: 20px;
 }
-.marginT25 {
+.margin.t25 {
   margin-top: 25px;
 }
-.marginT30 {
+.margin.t30 {
   margin-top: 30px;
 }
-.marginT35 {
+.margin.t35 {
   margin-top: 35px;
 }
-.marginT40 {
+.margin.t40 {
   margin-top: 40px;
 }
-.marginT45 {
+.margin.t45 {
   margin-top: 45px;
 }
-.marginT50 {
+.margin.t50 {
   margin-top: 50px;
 }
-.marginR0 {
+.margin.b0 {
   margin-bottom: 0;
 }
-.marginR5 {
+.margin.b5 {
   margin-bottom: 5px;
 }
-.marginR10 {
+.margin.b10 {
   margin-bottom: 10px;
 }
-.marginR15 {
+.margin.b15 {
   margin-bottom: 15px;
 }
-.marginR20 {
+.margin.b20 {
   margin-bottom: 20px;
 }
-.marginR25 {
+.margin.b25 {
   margin-bottom: 25px;
 }
-.marginR30 {
+.margin.b30 {
   margin-bottom: 30px;
 }
-.marginR35 {
+.margin.b35 {
   margin-bottom: 35px;
 }
-.marginR40 {
+.margin.b40 {
   margin-bottom: 40px;
 }
-.marginR45 {
+.margin.b45 {
   margin-bottom: 45px;
 }
-.marginR50 {
+.margin.b50 {
   margin-bottom: 50px;
 }
-.marginL0 {
+.margin.l0 {
   margin-left: 0;
 }
-.marginL5 {
+.margin.l5 {
   margin-left: 5px;
 }
-.marginL10 {
+.margin.l10 {
   margin-left: 10px;
 }
-.marginL15 {
+.margin.l15 {
   margin-left: 15px;
 }
-.marginL20 {
+.margin.l20 {
   margin-left: 20px;
 }
-.marginL25 {
+.margin.l25 {
   margin-left: 25px;
 }
-.marginL30 {
+.margin.l30 {
   margin-left: 30px;
 }
-.marginL35 {
+.margin.l35 {
   margin-left: 35px;
 }
-.marginL40 {
+.margin.l40 {
   margin-left: 40px;
 }
-.marginL45 {
+.margin.l45 {
   margin-left: 45px;
 }
-.marginL50 {
+.margin.l50 {
   margin-left: 50px;
 }
-.marginR0 {
+.margin.r0 {
   margin-right: 0;
 }
-.marginR5 {
+.margin.r5 {
   margin-right: 5px;
 }
-.marginR10 {
+.margin.r10 {
   margin-right: 10px;
 }
-.marginR15 {
+.margin.r15 {
   margin-right: 15px;
 }
-.marginR20 {
+.margin.r20 {
   margin-right: 20px;
 }
-.marginR25 {
+.margin.r25 {
   margin-right: 25px;
 }
-.marginR30 {
+.margin.r30 {
   margin-right: 30px;
 }
-.marginR35 {
+.margin.r35 {
   margin-right: 35px;
 }
-.marginR40 {
+.margin.r40 {
   margin-right: 40px;
 }
-.marginR45 {
+.margin.r45 {
   margin-right: 45px;
 }
-.marginR50 {
+.margin.r50 {
   margin-right: 50px;
 }
 
@@ -395,136 +435,136 @@ div {
 .padding50 {
   padding: 50px;
 }
-.marginR0 {
-  margin-right: 0;
+.padding.t0 {
+  padding-top: 0;
 }
-.paddingT5 {
+.padding.t5 {
   padding-top: 5px;
 }
-.paddingT10 {
+.padding.t10 {
   padding-top: 10px;
 }
-.paddingT15 {
+.padding.t15 {
   padding-top: 15px;
 }
-.paddingT20 {
+.padding.t20 {
   padding-top: 20px;
 }
-.paddingT25 {
+.padding.t25 {
   padding-top: 25px;
 }
-.paddingT30 {
+.padding.t30 {
   padding-top: 30px;
 }
-.paddingT35 {
+.padding.t35 {
   padding-top: 35px;
 }
-.paddingT40 {
+.padding.t40 {
   padding-top: 40px;
 }
-.paddingT45 {
+.padding.t45 {
   padding-top: 45px;
 }
-.paddingT50 {
+.padding.t50 {
   padding-top: 50px;
 }
-.paddingB0 {
-  padding-right: 0;
+.padding.b0 {
+  padding-bottom: 0;
 }
-.paddingB5 {
-  padding-right: 5px;
+.padding.b5 {
+  padding-bottom: 5px;
 }
-.paddingB10 {
-  padding-right: 10px;
+.padding.b10 {
+  padding-bottom: 10px;
 }
-.paddingB15 {
-  padding-right: 15px;
+.padding.b15 {
+  padding-bottom: 15px;
 }
-.paddingB20 {
-  padding-right: 20px;
+.padding.b20 {
+  padding-bottom: 20px;
 }
-.paddingB25 {
-  padding-right: 25px;
+.padding.b25 {
+  padding-bottom: 25px;
 }
-.paddingB30 {
-  padding-right: 30px;
+.padding.b30 {
+  padding-bottom: 30px;
 }
-.paddingB35 {
-  padding-right: 35px;
+.padding.b35 {
+  padding-bottom: 35px;
 }
-.paddingB40 {
-  padding-right: 40px;
+.padding.b40 {
+  padding-bottom: 40px;
 }
-.paddingB45 {
-  padding-right: 45px;
+.padding.b45 {
+  padding-bottom: 45px;
 }
-.paddingB50 {
-  padding-right: 50px;
+.padding.b50 {
+  padding-bottom: 50px;
 }
-.paddingL0 {
+.padding.l0 {
   padding-left: 0;
 }
-.paddingL5 {
+.padding.l5 {
   padding-left: 5px;
 }
-.paddingL10 {
+.padding.l10 {
   padding-left: 10px;
 }
-.paddingL15 {
+.padding.l15 {
   padding-left: 15px;
 }
-.paddingL20 {
+.padding.l20 {
   padding-left: 20px;
 }
-.paddingL25 {
+.padding.l25 {
   padding-left: 25px;
 }
-.paddingL30 {
+.padding.l30 {
   padding-left: 30px;
 }
-.paddingL35 {
+.padding.l35 {
   padding-left: 35px;
 }
-.paddingL40 {
+.padding.l40 {
   padding-left: 40px;
 }
-.paddingL45 {
+.padding.l45 {
   padding-left: 45px;
 }
-.paddingL50 {
+.padding.l50 {
   padding-left: 50px;
 }
-.paddingR0 {
+.padding.r0 {
   padding-right: 0;
 }
-.paddingR5 {
+.padding.r5 {
   padding-right: 5px;
 }
-.paddingR10 {
+.padding.r10 {
   padding-right: 10px;
 }
-.paddingR15 {
+.padding.r15 {
   padding-right: 15px;
 }
-.paddingR20 {
+.padding.r20 {
   padding-right: 20px;
 }
-.paddingR25 {
+.padding.r25 {
   padding-right: 25px;
 }
-.paddingR30 {
+.padding.r30 {
   padding-right: 30px;
 }
-.paddingR35 {
+.padding.r35 {
   padding-right: 35px;
 }
-.paddingR40 {
+.padding.r40 {
   padding-right: 40px;
 }
-.paddingR45 {
+.padding.r45 {
   padding-right: 45px;
 }
-.paddingR50 {
+.padding.r50 {
   padding-right: 50px;
 }
 
@@ -727,7 +767,7 @@ div {
   }
 }
 
-/* lAPTOPS, DESKTOP */
+/* LAPTOPS, DESKTOP */
 @media only screen and (min-width: 993px) {
   .row-flex {
     display: flex;
