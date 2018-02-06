@@ -235,7 +235,7 @@ div {
 */
 
 .no-margin {
-	margin: o;
+	margin: 0;
 }
 
 /*
@@ -247,7 +247,7 @@ div {
 */
 
 .no-margin-i {
-	margin: o!important;
+	margin: 0!important;
 }
 
 /*
