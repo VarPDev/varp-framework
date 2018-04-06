@@ -3,7 +3,7 @@
 *****/
 
 /* RETURN A COPY OF PARAM */
-function DeepCopy(obj) {
+function deepCopy(obj) {
   var copy;
 
   // Handle the 3 simple types, and null or undefined
@@ -38,7 +38,7 @@ function DeepCopy(obj) {
 }
 
 /* CREATE A TEMPLATE IN HEAD IN A SCRIPT TAG, PARAMS ARE HTML TEMPLATE AND ID OF TEMPLATE */
-function GenerateTemplate(html, id) {
+function generateTemplate(html, id) {
   var template = document.createElement('script');
   template.type = "text/template";
   template.id = id;
@@ -46,7 +46,7 @@ function GenerateTemplate(html, id) {
   document.head.appendChild(template);
 }
 
-function GetCardType(number) {
+function getCardType(number) {
   // Visa
   var re = new RegExp("^4");
   if (number.match(re) != null)
@@ -69,4 +69,42 @@ function GetCardType(number) {
     return "amex";
 
   return false;
+}
+
+function searchInArray(search, array) {
+  var results = [];
+  if (!search || search != '') {
+    search = trimString(search);
+    for (var i = 0; i < array.length; i++) {
+      for (var key in array[i]) {
+        if (typeof array[i][key] === 'string' || array[i][key] instanceof String) {
+          if (array[i][key].toUpperCase().indexOf(search.toUpperCase()) != -1) {
+            if (!itemExists(results, array[i])) results.push(array[i]);
+          }
+        }
+      }
+    }
+	return results;
+  } else {
+    return array;
+  }
+}
+
+function trimString(s) {
+  var l = 0, r = s.length - 1;
+  while (l < s.length && s[l] == ' ') l++;
+  while (r > l && s[r] == ' ') r -= 1;
+  return s.substring(l, r + 1);
+}
+
+function itemExists(haystack, needle) {
+  for (var i = 0; i < haystack.length; i++) if (compareObjects(haystack[i], needle)) return true;
+  return false;
+}
+
+function compareObjects(o1, o2) {
+  var k = '';
+  for (k in o1) if (o1[k] != o2[k]) return false;
+  for (k in o2) if (o1[k] != o2[k]) return false;
+  return true;
 }
