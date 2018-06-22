@@ -3097,6 +3097,72 @@ print {
   float: none;
 }
 
+/* POSITIONS */
+
+[class*='v-pos-top'], [class*='v-pos-bottom'], [class*='v-pos-left'], [class*='v-pos-right'], [class*='v-pos-center'] {
+    position: absolute !important;
+}
+
+.v-pos-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: table;
+    width: -moz-max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.v-pos-top-left {
+    top: 0;
+    left: 0;
+}
+
+.v-pos-top-center {
+    top: 0;
+}
+
+.v-pos-bottom-center {
+    bottom: 0;
+}
+
+.v-pos-top-center, .v-pos-bottom-center {
+    left: 50%;
+    transform: translateX(-50%);
+    display: table;
+    width: -moz-max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.v-pos-top-right {
+    top: 0;
+    right: 0;
+}
+
+.v-pos-center-left {
+    left: 0;
+}
+
+.v-pos-center-right {
+    right: 0;
+}
+
+[class*='v-pos-center-left'], [class*='v-pos-center-right'] {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.v-pos-bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.v-pos-bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
 /* ALIGN IMPORTANT */
 
 .v-txt-center-i {
