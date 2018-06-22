@@ -4,7 +4,7 @@ A set of common css utilities and have a flexbox grid.
 
 ## Wiki
 
-[Basic Grid](https://github.com/VarPDev/varp-libraries/wiki)
+[Go to wiki](https://github.com/VarPDev/varp-libraries/wiki)
 
 ## Why
 
